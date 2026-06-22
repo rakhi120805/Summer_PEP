@@ -4,6 +4,8 @@ using namespace std;
 int main(){
     int age;
     cin>>age;
-    if(age>18)cout<<"test granted";
+    int num;
+    cin>>num;
+    if(age>18 && num>10)cout<<"test granted";
     else cout<<"you can't give the test!!";
 }
